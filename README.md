@@ -41,7 +41,7 @@ The dashboard was built using Python:
 
 6.Data Source More info on where the data comes from and how it’s structured Example:
 Source: https://www.kaggle.com/datasets/mojtaba142/hotel-booking
-Data on ~500 airbnb listing reviews, including details on their location, room prices, and seasons, as well as a complementary table with the snow cover around the world.
+Data on ~119390 Hotel booking reviews, including details on their location, room prices, cancellation, not cancellation and seasons, as well as a complementary table with the snow cover around the world.
 
 7. Features / Highlights The best dashboard explanation format.
   • Business problem
