@@ -1,7 +1,7 @@
-### Hotel Booking Analysis
+## Hotel Booking Analysis
 
 1. Overview
-After searching through web sources on hotel booking datasets and interactive Python analysis tools, I've performed a data analysis on the popular Hotel Booking Demand dataset (from Kaggle, covering 119,390 bookings from 2015-2017 for City and Resort Hotels). This addresses your project: analyzing cancellation reasons, peak cancellation months, and revenue impacts using Python libraries like Pandas, Seaborn, Plotly for interactive visuals.
+After searching through web sources on hotel booking datasets and interactive Python analysis tools, I've performed a data analysis on the popular Hotel Booking Demand dataset (from Kaggle, covering 119,390 bookings from 2015-2017 for City and Resort Hotels). This addresses your project: analyzing cancellation reasons, peak cancellation months, and revenue impacts using Python libraries like Pandas,Numpy, Matplotlib,Seaborn, Plotly for interactive visuals.
 
 2.Context
 This dataset contains 119390 observations for a City Hotel and a Resort Hotel. 
@@ -16,7 +16,7 @@ Four Columns, 'name', 'email', 'phone number' and 'credit_card' have been artifi
 2.When there is a longer waiting list, customers  tend to cancel more frequently.
 3.The majority  of clients are coming from offline travel agent to make their reservations.
 
-##Key Findings from Analysis
+# Key Findings from Analysis
 • #Why More Cancellations? Top factors include long lead_time (>3 months, allowing plan changes), discounted ADR (average daily rate), market_segment like Online TA (tour agencies with flexible policies), and booking_changes (modifiable bookings reduce cancellations by ~15%). Guests with children/babies or from certain countries (e.g., Portugal) show lower rates.
 • Peak Cancellation Months: Highest in August (~42%), July (~41%), and April due to peak tourist seasons and overbooking risks. Lowest in November (~22%).
 • Revenue Impact: Lost revenue estimated at $500K+ from cancellations (based on avg. ADR ~$100/night across cancelled stays), leading to occupancy inefficiencies and no-shows.
@@ -50,7 +50,7 @@ The dashboard was built using Python:
 
 6.Data Source More info on where the data comes from and how it’s structured Example:
 
-PDF: https://github.com/Lalbabu96/Hotel_Booking_Analysis/blob/main/Hotel_Booking_Presentation.pdf
+PDF: https://github.com/Lalbabu96/Hotel_Booking_Analysis/blob/main/Hotel_Booking_Presentation.pdf       
 Source: https://www.kaggle.com/datasets/mojtaba142/hotel-booking
 
 7. Features / Highlights The best dashboard explanation format.
@@ -59,16 +59,14 @@ Source: https://www.kaggle.com/datasets/mojtaba142/hotel-booking
   • Walk through of key visuals (briefly!)
   • Business impact & Insights
 
-9. Suggestions
-   i. Cancellation rates rise as the price does. In order to prevent cancellation of reservations,
+8. Suggestions
+ i. Cancellation rates rise as the price does. In order to prevent cancellation of reservations,
  hotel could work on their prices strategies and try to lower the rate foe specific hotel based on locations.
  They can also provide some discount to the consumers.
 
- ii.As the ratio of cancellation and not cancellation of the resort hotel is higher in the resort hotel than the city hotels. 
+ii.As the ratio of cancellation and not cancellation of the resort hotel is higher in the resort hotel than the city hotels. 
    So the hotel should provide a reasonable discount on the room price on the weekend and on the holidays. 
-
  iii.In the month of January, hotels can starts campaigns or marketing with a reasonable amount to increase their revenue as the cancellations is the highest in this month.
-
- iv.They can also increase the quality of their hotels and their services mainly in Portugal to reduce the cancellation rate.
+iv.They can also increase the quality of their hotels and their services mainly in Portugal to reduce the cancellation rate.
 
 
