@@ -50,6 +50,7 @@ The dashboard was built using Python:
 
 6.Data Source More info on where the data comes from and how it’s structured Example:
 
+PDF: https://github.com/Lalbabu96/Hotel_Booking_Analysis/blob/main/Hotel_Booking_Presentation.pdf
 Source: https://www.kaggle.com/datasets/mojtaba142/hotel-booking
 
 7. Features / Highlights The best dashboard explanation format.
