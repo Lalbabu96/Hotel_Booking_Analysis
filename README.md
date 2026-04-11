@@ -31,6 +31,7 @@ Four Columns, 'name', 'email', 'phone number' and 'credit_card' have been artifi
 • As seen in graph, reservation are cancelled when the average daily rate is higher then when it is not cancelled.it clearly proves all the above analysis, that the higher price leads to higher cancellations. 
 
 5.Tech Stack List the key technologies used to build the dashboard.
+
 Example: 
 The dashboard was built using Python: 
 • Python Liberary:
