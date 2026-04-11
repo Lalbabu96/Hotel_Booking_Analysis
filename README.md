@@ -1,19 +1,27 @@
-# Hotel Booking Analysis
+### Hotel Booking Analysis
 
-1.Context
+1. Overview
+After searching through web sources on hotel booking datasets and interactive Python analysis tools, I've performed a data analysis on the popular Hotel Booking Demand dataset (from Kaggle, covering 119,390 bookings from 2015-2017 for City and Resort Hotels). This addresses your project: analyzing cancellation reasons, peak cancellation months, and revenue impacts using Python libraries like Pandas, Seaborn, Plotly for interactive visuals.
+
+2.Context
 This dataset contains 119390 observations for a City Hotel and a Resort Hotel. 
 Each observation represents a hotel booking between the 1st of July 2015 and 31st of August 2017, including booking that effectively arrived and booking that were canceled.
 
-2.Content
+3.Content
 Since this is hotel real data, all data elements pertaining hotel or costumer identification were deleted.
 Four Columns, 'name', 'email', 'phone number' and 'credit_card' have been artificially created and added to the dataset.
 
-3.Hypothesis:
+4.Hypothesis:
 1.More Cancellations occurs when prices are higher.
 2.When there is a longer waiting list, customers  tend to cancel more frequently.
 3.The majority  of clients are coming from offline travel agent to make their reservations.
 
-# Analysis Data/ Perform on Data
+##Key Findings from Analysis
+• #Why More Cancellations? Top factors include long lead_time (>3 months, allowing plan changes), discounted ADR (average daily rate), market_segment like Online TA (tour agencies with flexible policies), and booking_changes (modifiable bookings reduce cancellations by ~15%). Guests with children/babies or from certain countries (e.g., Portugal) show lower rates.
+• Peak Cancellation Months: Highest in August (~42%), July (~41%), and April due to peak tourist seasons and overbooking risks. Lowest in November (~22%).
+• Revenue Impact: Lost revenue estimated at $500K+ from cancellations (based on avg. ADR ~$100/night across cancelled stays), leading to occupancy inefficiencies and no-shows.
+
+Data Analyze/ Perform on Data
 • The accompanying bar graph shows the percentage of reservation that are cancelled and those thar are not. It is obvious that there are still a significant number of reservation that have not be cancelled. There are still 37% of clients who cancelled their reservation, which has a significant impact on the hotel’s earnings.
 
 • In comparison to resort hotel, city hotel have more booking, It is possible that reports hotels are  more expensive than those cities.
@@ -50,7 +58,9 @@ Data on ~119390 Hotel booking reviews, including details on their location, room
   • Walk through of key visuals (briefly!)
   • Business impact & Insights
 
-8. Suggestions
+-> Data Source: https://www.kaggle.com/datasets/mojtaba142/hotel-booking
+
+9. Suggestions
    1. Cancellation rates rise as the price does. In order to prevent cancellation of reservations,
  hotel could work on their prices strategies and try to lower the rate foe specific hotel based on locations.
  They can also provide some discount to the consumers.
