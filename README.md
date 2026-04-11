@@ -49,8 +49,8 @@ The dashboard was built using Python:
 • Matplotlib -> Pyplot
 
 6.Data Source More info on where the data comes from and how it’s structured Example:
+
 Source: https://www.kaggle.com/datasets/mojtaba142/hotel-booking
-Data on ~119390 Hotel booking reviews, including details on their location, room prices, cancellation, not cancellation and seasons, as well as a complementary table with the snow cover around the world.
 
 7. Features / Highlights The best dashboard explanation format.
   • Business problem
@@ -58,18 +58,16 @@ Data on ~119390 Hotel booking reviews, including details on their location, room
   • Walk through of key visuals (briefly!)
   • Business impact & Insights
 
--> Data Source: https://www.kaggle.com/datasets/mojtaba142/hotel-booking
-
 9. Suggestions
-   1. Cancellation rates rise as the price does. In order to prevent cancellation of reservations,
+   i. Cancellation rates rise as the price does. In order to prevent cancellation of reservations,
  hotel could work on their prices strategies and try to lower the rate foe specific hotel based on locations.
  They can also provide some discount to the consumers.
 
- 2.As the ratio of cancellation and not cancellation of the resort hotel is higher in the resort hotel than the city hotels. 
+ ii.As the ratio of cancellation and not cancellation of the resort hotel is higher in the resort hotel than the city hotels. 
    So the hotel should provide a reasonable discount on the room price on the weekend and on the holidays. 
 
- 3.In the month of January, hotels can starts campaigns or marketing with a reasonable amount to increase their revenue as the cancellations is the highest in this month.
+ iii.In the month of January, hotels can starts campaigns or marketing with a reasonable amount to increase their revenue as the cancellations is the highest in this month.
 
- 4.They can also increase the quality of their hotels and their services mainly in Portugal to reduce the cancellation rate.
+ iv.They can also increase the quality of their hotels and their services mainly in Portugal to reduce the cancellation rate.
 
 
