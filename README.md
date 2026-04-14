@@ -14,7 +14,7 @@ Four Columns, 'name', 'email', 'phone number' and 'credit_card' have been artifi
 4.Hypothesis:
 1.More Cancellations occurs when prices are higher.
 2.When there is a longer waiting list, customers  tend to cancel more frequently.
-3.The majority  of clients are coming from offline travel agent to make their reservations.
+3.The majority of clients are coming from offline travel agent to make their reservations.
 
 # Key Findings from Analysis
 • #Why More Cancellations? Top factors include long lead_time (>3 months, allowing plan changes), discounted ADR (average daily rate), market_segment like Online TA (tour agencies with flexible policies), and booking_changes (modifiable bookings reduce cancellations by ~15%). Guests with children/babies or from certain countries (e.g., Portugal) show lower rates.
